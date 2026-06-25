@@ -39,3 +39,22 @@ mAYoonRow.addEventListener('change', function(e){
   })
 
 })
+
+/* I Row */
+
+const mIRow = document.getElementById('miRow');
+const iRowChildren = document.querySelectorAll('.iRow');
+
+mIRow.addEventListener('change', function(e) {
+  const isMIRowChecked = e.target.checked
+
+  iRowChildren.forEach(child => {
+    if (isMIRowChecked) {
+      child.checked = true;
+    }
+    else {
+      child.checked = false;
+    }
+  })
+})
+
