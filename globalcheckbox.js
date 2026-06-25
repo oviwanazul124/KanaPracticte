@@ -96,3 +96,57 @@ mURowYoon.addEventListener('change', function(e) {
   })
 
 })
+
+/* E Row */
+
+const mERow = document.getElementById('mERow');
+const eRowChildren = document.querySelectorAll('.eRow');
+
+mERow.addEventListener('change', function(e) {
+  const isMERowChecked = e.target.checked
+
+  eRowChildren.forEach(child => {
+    if(isMERowChecked) {
+      child.checked = true;
+    }
+    else {
+      child.checked = false;
+    }
+  })
+})
+
+/* O Row */
+
+const mORow = document.getElementById('mORow');
+const oRowChildren = document.querySelectorAll('.oRow');
+
+mORow.addEventListener('change', function(e) {
+  const isMORowChecked = e.target.checked
+
+  oRowChildren.forEach(child => {
+    if(isMORowChecked) {
+      child.checked = true;
+    }
+    else {
+      child.checked = false;
+    }
+  })
+})
+
+/* O Yoon Row */
+
+const mORowYoon = document.getElementById('mORowYoon');
+const oRowYoonChildren = document.querySelectorAll('.oRowYoon');
+
+mORowYoon.addEventListener('change', function(e) {
+  const isMORowYoonChecked = e.target.checked
+
+  oRowYoonChildren.forEach(child => {
+    if(isMORowYoonChecked) {
+      child.checked = true;
+    }
+    else {
+      child.checked = false;
+    }
+  })
+})

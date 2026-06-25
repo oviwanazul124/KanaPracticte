@@ -2,4 +2,25 @@
 
 body {
   font-family: "Klee One";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.answerZone {
+  text-align: center;
+}
+
+.settingsZone {
+  position: absolute;
+  top: 100%;
+  margin-top: 15px;
 }

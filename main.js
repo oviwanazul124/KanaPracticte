@@ -144,3 +144,14 @@ inputKana.addEventListener('keydown', function(event) {
 
 nextKana();
 
+/* Settings Toggle */
+
+const kanaSettingsTitle = document.getElementById('kanaSettingsTitle');
+const kanaContentSettings = document.getElementById('kanaContent');
+
+kanaSettingsTitle.addEventListener('click', function() {
+
+  event.preventDefault();
+  kanaContentSettings.hidden = !kanaContentSettings.hidden
+
+})
