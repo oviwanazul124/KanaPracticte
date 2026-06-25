@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" />
+    <title>Kana Practice</title>
+  </head>
+  <body>
+    <form>
+      <h2 id="kana">ア</h2>
+      <p id="feedbackText"></p>
+      <input type="text" id="inputKana" />
+
+      <div id="kanaSettings">
+        <h4>Active Katakana</h4>
+        <!-- A row -->
+        <h5>A</h5>
+        <label><input type="checkbox" id="mARow" checked /> Select all</label>
+        <hr />
+        <label
+          ><input type="checkbox" class="aRow" value="a" checked />ア</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="ka" checked />カ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="ga" checked />ガ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="sa" checked />サ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="za" checked />ザ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="ta" checked />タ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="da" checked />ダ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="na" checked />ナ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="ha" checked />ハ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="ba" checked />バ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="pa" checked />パ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="ma" checked />マ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="ya" checked />ヤ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="ra" checked />ラ</label
+        >
+        <label
+          ><input type="checkbox" class="aRow" value="wa" checked />ワ</label
+        >
+        <h6>Yōon</h6>
+        <label
+          ><input type="checkbox" id="mARowYoon" checked /> Select all</label
+        >
+        <br />
+        <!-- Yoon A Row -->
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="kya"
+            checked
+          />キャ</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="gya"
+            checked
+          />ギャ</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="sha"
+            checked
+          />シャ</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="jya"
+            checked
+          />ジャ</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="cha"
+            checked
+          />チャ</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="dya"
+            checked
+          />ヂャ</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="nya"
+            checked
+          />ニャ</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="hya"
+            checked
+          />ヒャ</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="bya"
+            checked
+          />ビャ</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="pya"
+            checked
+          />ピャ</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="mya"
+            checked
+          />ミャ</label
+        >
+        <label
+          ><input
+            type="checkbox"
+            class="mARowYoon"
+            value="rya"
+            checked
+          />リャ</label
+        >
+        <h5>I</h5>
+        <hr />
+        <label><input type="checkbox" value="i" checked />イ</label>
+        <label><input type="checkbox" value="ki" checked />キ</label>
+        <label><input type="checkbox" value="gi" checked />ギ</label>
+        <label><input type="checkbox" value="shi" checked />シ</label>
+        <label><input type="checkbox" value="ji" checked />ジ</label>
+        <label><input type="checkbox" value="chi" checked />千</label>
+        <label><input type="checkbox" value="di" checked />ヂ</label>
+        <label><input type="checkbox" value="ni" checked />ニ</label>
+        <label><input type="checkbox" value="hi" checked />ヒ</label>
+        <label><input type="checkbox" value="bi" checked />ビ</label>
+        <label><input type="checkbox" value="pi" checked />ピ</label>
+        <label><input type="checkbox" value="mi" checked />ミ</label>
+        <label><input type="checkbox" value="ri" checked />リ</label>
+        <h5>U</h5>
+        <hr />
+        <label><input type="checkbox" value="u" checked />ウ</label>
+        <label><input type="checkbox" value="ku" checked />ク</label>
+        <label><input type="checkbox" value="gu" checked />グ</label>
+        <label><input type="checkbox" value="su" checked />ス</label>
+        <label><input type="checkbox" value="zu" checked />ズ</label>
+        <label><input type="checkbox" value="tsu" checked />ツ</label>
+        <label><input type="checkbox" value="du" checked />ヅ</label>
+        <label><input type="checkbox" value="nu" checked />ヌ</label>
+        <label><input type="checkbox" value="fu" checked />フ</label>
+        <label><input type="checkbox" value="bu" checked />ブ</label>
+        <label><input type="checkbox" value="pu" checked />プ</label>
+        <label><input type="checkbox" value="mu" checked />ム</label>
+        <label><input type="checkbox" value="yu" checked />ユ</label>
+        <label><input type="checkbox" value="ru" checked />ル</label>
+        <h6>Yōon</h6>
+        <label><input type="checkbox" value="kyu" checked />キュ</label>
+        <label><input type="checkbox" value="gyu" checked />ギュ</label>
+        <label><input type="checkbox" value="shu" checked />シュ</label>
+        <label><input type="checkbox" value="jyu" checked />ジュ</label>
+        <label><input type="checkbox" value="chu" checked />チュ</label>
+        <label><input type="checkbox" value="dyu" checked />ヂュ</label>
+        <label><input type="checkbox" value="nyu" checked />ニュ</label>
+        <label><input type="checkbox" value="hyu" checked />ヒュ</label>
+        <label><input type="checkbox" value="byu" checked />ビュ</label>
+        <label><input type="checkbox" value="pyu" checked />ピュ</label>
+        <label><input type="checkbox" value="myu" checked />ミュ</label>
+        <label><input type="checkbox" value="ryu" checked />リュ</label>
+        <h5>E</h5>
+        <hr />
+        <label><input type="checkbox" value="e" checked />エ</label>
+        <label><input type="checkbox" value="ke" checked />ケ</label>
+        <label><input type="checkbox" value="ge" checked />ゲ</label>
+        <label><input type="checkbox" value="se" checked />セ</label>
+        <label><input type="checkbox" value="ze" checked />ゼ</label>
+        <label><input type="checkbox" value="te" checked />テ</label>
+        <label><input type="checkbox" value="de" checked />デ</label>
+        <label><input type="checkbox" value="ne" checked />ネ</label>
+        <label><input type="checkbox" value="he" checked />ヘ</label>
+        <label><input type="checkbox" value="be" checked />ベ</label>
+        <label><input type="checkbox" value="pe" checked />ペ</label>
+        <label><input type="checkbox" value="me" checked />メ</label>
+        <label><input type="checkbox" value="re" checked />レ</label>
+        <h5>O</h5>
+        <hr />
+        <label><input type="checkbox" value="o" checked />オ</label>
+        <label><input type="checkbox" value="ko" checked />コ</label>
+        <label><input type="checkbox" value="go" checked />ゴ</label>
+        <label><input type="checkbox" value="so" checked />ソ</label>
+        <label><input type="checkbox" value="zo" checked />ゾ</label>
+        <label><input type="checkbox" value="to" checked />ト</label>
+        <label><input type="checkbox" value="do" checked />ド</label>
+        <label><input type="checkbox" value="no" checked />ノ</label>
+        <label><input type="checkbox" value="ho" checked />ホ</label>
+        <label><input type="checkbox" value="bo" checked />ボ</label>
+        <label><input type="checkbox" value="po" checked />ポ</label>
+        <label><input type="checkbox" value="mo" checked />モ</label>
+        <label><input type="checkbox" value="yo" checked />ヨ</label>
+        <label><input type="checkbox" value="ro" checked />ロ</label>
+        <h6>Yōon</h6>
+        <label><input type="checkbox" value="kyo" checked />キョ</label>
+        <label><input type="checkbox" value="gyo" checked />ギョ</label>
+        <label><input type="checkbox" value="sho" checked />ショ</label>
+        <label><input type="checkbox" value="jyo" checked />ジョ</label>
+        <label><input type="checkbox" value="cho" checked />チョ</label>
+        <label><input type="checkbox" value="dyo" checked />ヂョ</label>
+        <label><input type="checkbox" value="nyo" checked />ニョ</label>
+        <label><input type="checkbox" value="hyo" checked />ヒョ</label>
+        <label><input type="checkbox" value="byo" checked />ビョ</label>
+        <label><input type="checkbox" value="pyo" checked />ミョ</label>
+        <label><input type="checkbox" value="ryo" checked />リョ</label>
+      </div>
+    </form>
+
+    <script src="main.js"></script>
+    <script src="globalcheckbox.js"></script>
+  </body>
+</html>
