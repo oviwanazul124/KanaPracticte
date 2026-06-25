@@ -77,3 +77,22 @@ mURow.addEventListener('change', function(e) {
   })
 
 })
+
+/* U Yoon Row */
+
+const mURowYoon = document.getElementById('mURowYoon');
+const uRowYoonChildren = document.querySelectorAll('.uRowYoon');
+
+mURowYoon.addEventListener('change', function(e) {
+  const isMURowYoonChecked = e.target.checked
+
+  uRowYoonChildren.forEach(child => {
+    if(isMURowYoonChecked) {
+      child.checked= true;
+    }
+    else {
+      child.checked = false;
+    }
+  })
+
+})
