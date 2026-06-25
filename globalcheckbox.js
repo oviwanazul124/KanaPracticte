@@ -58,3 +58,22 @@ mIRow.addEventListener('change', function(e) {
   })
 })
 
+/* U Row */
+
+const mURow = document.getElementById('mURow');
+const uRowChildren = document.querySelectorAll('.uRow');
+
+mURow.addEventListener('change', function(e) {
+
+  const isMURowChecked = e.target.checked
+
+  uRowChildren.forEach(child => {
+    if(isMURowChecked) {
+      child.checked = true;
+    }
+    else {
+      child.checked = false;
+    }
+  })
+
+})
