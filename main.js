@@ -147,7 +147,7 @@ nextKana();
 /* Settings Toggle */
 
 const kanaSettingsTitle = document.getElementById('kanaSettingsTitle');
-const kanaContentSettings = document.getElementById('kanaContent');
+const kanaContentSettings = document.getElementById('kanaSettings');
 
 kanaSettingsTitle.addEventListener('click', function() {
 
